@@ -28,6 +28,8 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
-    'import/prefer-default-export': 'off'
+    'import/prefer-default-export': 'off',
+    'react/state-in-constructor': 'off',
+    'react/static-property-placement': 'off'
   },
 };
